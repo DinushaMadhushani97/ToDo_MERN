@@ -1,0 +1,4 @@
+# these files not go the github account
+node_modules
+.env
+

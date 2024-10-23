@@ -1,0 +1,41 @@
+/* src/style.css */
+
+body {
+    background-color: #f8f9fa; /* Light background color */
+    font-family: Arial, sans-serif; /* Change font family */
+}
+
+h1, h2 {
+    color: #343a40; /* Dark text color for headers */
+}
+
+.todo-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.todo-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.todo-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold; /* Make labels bold */
+}
